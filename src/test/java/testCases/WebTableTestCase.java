@@ -20,13 +20,13 @@ public class WebTableTestCase extends TestBase {
 	
 	@BeforeMethod
 	public void setUp() {
-		
+	
 		initialization();
 		webTable=new WebTable();
 		
 	}
 	
-	@Test
+	@Test(priority=1)
 	public void rowCount() {
 		
 		int number=webTable.numberOfRows();
@@ -36,6 +36,16 @@ public class WebTableTestCase extends TestBase {
 		
 		
 	}
+	
+	@Test(priority=2)
+	public void version() {
+		
+		ArrayList<String> data= webTable.versions(webTable.numberOfRows());
+		
+		System.out.println(data);
+	}
+	
+	
 	
 	
 	@AfterMethod

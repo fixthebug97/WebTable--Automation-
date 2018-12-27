@@ -5,9 +5,9 @@
     <classes>
       <class name="testCases.WebTableTestCase">
         <methods>
-          <include name="ver"/>
-          <include name="tearDown"/>
+          <include name="version"/>
           <include name="setUp"/>
+          <include name="rowCount"/>
         </methods>
       </class> <!-- testCases.WebTableTestCase -->
     </classes>
