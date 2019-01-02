@@ -49,6 +49,7 @@ public class WebTableTestCase extends TestBase {
 		
 		Assert.assertEquals(versionData.get(i), versionArray[i]);
 			
+		System.out.println(versionData.get(i)+"=="+versionArray[i]);
 		
 		}
 		

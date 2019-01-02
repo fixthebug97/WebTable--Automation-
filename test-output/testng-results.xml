@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16314" started-at="2019-01-02T07:54:17Z" finished-at="2019-01-02T07:54:33Z">
+  <suite name="Default suite" duration-ms="16299" started-at="2019-01-02T08:04:26Z" finished-at="2019-01-02T08:04:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16314" started-at="2019-01-02T07:54:17Z" finished-at="2019-01-02T07:54:33Z">
+    <test name="Default test" duration-ms="16299" started-at="2019-01-02T08:04:26Z" finished-at="2019-01-02T08:04:42Z">
       <class name="testCases.WebTableTestCase">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.WebTableTestCase@39aeed2f]" name="setUp" is-config="true" duration-ms="4984" started-at="2019-01-01T23:54:17Z" finished-at="2019-01-01T23:54:22Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.WebTableTestCase@39aeed2f]" name="setUp" is-config="true" duration-ms="5131" started-at="2019-01-02T00:04:26Z" finished-at="2019-01-02T00:04:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="rowCount()[pri:0, instance:testCases.WebTableTestCase@39aeed2f]" name="rowCount" duration-ms="39" started-at="2019-01-01T23:54:22Z" finished-at="2019-01-01T23:54:22Z">
+        <test-method status="PASS" signature="rowCount()[pri:0, instance:testCases.WebTableTestCase@39aeed2f]" name="rowCount" duration-ms="33" started-at="2019-01-02T00:04:31Z" finished-at="2019-01-02T00:04:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rowCount -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.WebTableTestCase@39aeed2f]" name="tearDown" is-config="true" duration-ms="697" started-at="2019-01-01T23:54:22Z" finished-at="2019-01-01T23:54:23Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.WebTableTestCase@39aeed2f]" name="tearDown" is-config="true" duration-ms="691" started-at="2019-01-02T00:04:31Z" finished-at="2019-01-02T00:04:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.WebTableTestCase@39aeed2f]" name="setUp" is-config="true" duration-ms="4385" started-at="2019-01-01T23:54:23Z" finished-at="2019-01-01T23:54:27Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.WebTableTestCase@39aeed2f]" name="setUp" is-config="true" duration-ms="4299" started-at="2019-01-02T00:04:32Z" finished-at="2019-01-02T00:04:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getVersion()[pri:0, instance:testCases.WebTableTestCase@39aeed2f]" name="getVersion" duration-ms="266" started-at="2019-01-01T23:54:27Z" finished-at="2019-01-01T23:54:28Z">
+        <test-method status="PASS" signature="getVersion()[pri:0, instance:testCases.WebTableTestCase@39aeed2f]" name="getVersion" duration-ms="260" started-at="2019-01-02T00:04:36Z" finished-at="2019-01-02T00:04:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getVersion -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.WebTableTestCase@39aeed2f]" name="tearDown" is-config="true" duration-ms="695" started-at="2019-01-01T23:54:28Z" finished-at="2019-01-01T23:54:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.WebTableTestCase@39aeed2f]" name="tearDown" is-config="true" duration-ms="688" started-at="2019-01-02T00:04:36Z" finished-at="2019-01-02T00:04:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.WebTableTestCase@39aeed2f]" name="setUp" is-config="true" duration-ms="4339" started-at="2019-01-01T23:54:28Z" finished-at="2019-01-01T23:54:33Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.WebTableTestCase@39aeed2f]" name="setUp" is-config="true" duration-ms="4303" started-at="2019-01-02T00:04:37Z" finished-at="2019-01-02T00:04:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getYear()[pri:0, instance:testCases.WebTableTestCase@39aeed2f]" name="getYear" duration-ms="206" started-at="2019-01-01T23:54:33Z" finished-at="2019-01-01T23:54:33Z">
+        <test-method status="PASS" signature="getYear()[pri:0, instance:testCases.WebTableTestCase@39aeed2f]" name="getYear" duration-ms="196" started-at="2019-01-02T00:04:41Z" finished-at="2019-01-02T00:04:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getYear -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.WebTableTestCase@39aeed2f]" name="tearDown" is-config="true" duration-ms="687" started-at="2019-01-01T23:54:33Z" finished-at="2019-01-01T23:54:33Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.WebTableTestCase@39aeed2f]" name="tearDown" is-config="true" duration-ms="683" started-at="2019-01-02T00:04:42Z" finished-at="2019-01-02T00:04:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
