@@ -14,6 +14,8 @@ public class WebTable extends TestBase {
 	String beforexpath_Version="//*[@id='main']/table/tbody/tr[";
 	String afterxpath_Version="]/td[1]";
 	
+	String beforexpath_year="//*[@id='main']/table/tbody/tr[";
+	String afterxpath_year="]/td[2]";
 	
 
 	@FindBy(xpath="//table[@class='w3-table-all notranslate']/tbody/tr")
@@ -30,10 +32,10 @@ public class WebTable extends TestBase {
 	}
 	
 
-	
+	 
 	public int numberOfRows() {
 		rowcount=table.size();
-		return rowcount-1;
+		return rowcount;
 		
 	}
 	
@@ -53,6 +55,21 @@ public class WebTable extends TestBase {
 			
 		}
 		return versionList;
+	}
+	
+	
+	public ArrayList<String> years(int rowcount){
+		ArrayList<String> yearList= new ArrayList<String>();
+		for(int i=2; i<=rowcount; i++) {
+			
+			String actualxpath=beforexpath_year+i+afterxpath_year;
+			String year=driver.findElement(By.xpath(actualxpath)).getText();
+			
+			yearList.add(year);
+			
+		}
+		return yearList;
+		
 	}
 	
 
