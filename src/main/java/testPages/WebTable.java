@@ -10,12 +10,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import BaseClass.TestBase;
 
-public class WebTable extends TestBase {
-	String beforexpath_Version="//*[@id='main']/table/tbody/tr[";
-	String afterxpath_Version="]/td[1]";
+public class WebTable extends TestBase implements Communicate {
 	
-	String beforexpath_year="//*[@id='main']/table/tbody/tr[";
-	String afterxpath_year="]/td[2]";
 	
 
 	@FindBy(xpath="//table[@class='w3-table-all notranslate']/tbody/tr")

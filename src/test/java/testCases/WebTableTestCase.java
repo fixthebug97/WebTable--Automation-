@@ -13,6 +13,7 @@ import testPages.WebTable;
 public class WebTableTestCase extends TestBase {
 	WebTable webTable;
 	String[] versionArray= {"HTML", "HTML 2.0", "HTML 3.2", "HTML 4.01", "XHTML","HTML5"};
+	
 	public WebTableTestCase() {
 		
 		super();
