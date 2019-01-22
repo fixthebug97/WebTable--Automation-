@@ -5,6 +5,7 @@
     <classes>
       <class name="testCases.WebTableTestCase">
         <methods>
+          <include name="getYear"/>
           <include name="getVersion"/>
           <include name="tearDown"/>
           <include name="setUp"/>

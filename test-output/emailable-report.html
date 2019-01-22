@@ -31,18 +31,60 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">3</td><td class="numi">3</td><td class="numi">0</td><td class="numi">0</td><td class="numi">20.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">1</td><td class="numi">1</td><td class="numi_attn">2</td><td class="numi">0</td><td class="numi">23.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="2">testCases.WebTableTestCase</td><td><a href="#m1"><b>setUp</b>  </a></td><td class="numi">1</td><td>1548115679376</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m2"><b>setUp</b>  </a></td><td class="numi">1</td><td>1548115679376</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Default test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="3">testCases.WebTableTestCase</td><td><a href="#m3"><b>setUp</b>  </a></td><td class="numi">1</td><td>1548115697788</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m4"><b>tearDown</b>  </a></td><td class="numi">2</td><td>1548115697788</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m5"><b>setUp</b>  </a></td><td class="numi">1</td><td>1548115697788</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Default test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="2">testCases.WebTableTestCase</td><td><a href="#m6"><b>getVersion</b>  </a></td><td class="numi">1</td><td>1548115697773</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m7"><b>getYear</b>  </a></td><td class="numi">1</td><td>1548115697788</td><td class="numi">0</td></tr>
 <tr><th colspan="4">Default test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="3">testCases.WebTableTestCase</td><td><a href="#m1"><b>rowCount</b>  </a></td><td class="numi">1</td><td>1546579838550</td><td class="numi">45</td></tr><tr class="passedodd"><td><a href="#m2"><b>getVersion</b>  </a></td><td class="numi">1</td><td>1546579844837</td><td class="numi">454</td></tr><tr class="passedodd"><td><a href="#m3"><b>getYear</b>  </a></td><td class="numi">1</td><td>1546579851220</td><td class="numi">247</td></tr>
+<tr class="passedodd"><td rowspan="1">testCases.WebTableTestCase</td><td><a href="#m8"><b>rowCount</b>  </a></td><td class="numi">1</td><td>1548115678702</td><td class="numi">29</td></tr>
 </table>
 <h1>Default test</h1>
-<h2 id="m1">testCases.WebTableTestCase:getVersion</h2>
+<h2 id="m1">testCases.WebTableTestCase:setUp</h2>
+<div style="padding-left:3em">
+<p>chrome not reachable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;LAPTOP-5EAMJ23T&apos;, ip: &apos;10.0.0.96&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\samik\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 2187f03beefd6ce6a83005c1cf9328d6</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:690)
+<br/>at BaseClass.TestBase.initialization(TestBase.java:44)
+<br/>at testCases.WebTableTestCase.setUp(WebTableTestCase.java:27)
+<br/>27 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">testCases.WebTableTestCase:rowCount</h2>
+<h2 id="m2">testCases.WebTableTestCase:setUp</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">testCases.WebTableTestCase:getYear</h2>
+<h2 id="m3">testCases.WebTableTestCase:tearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">testCases.WebTableTestCase:tearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">testCases.WebTableTestCase:getYear</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">testCases.WebTableTestCase:getVersion</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">testCases.WebTableTestCase:rowCount</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

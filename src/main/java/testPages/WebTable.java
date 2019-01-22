@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import BaseClass.TestBase;
 
-public class WebTable extends TestBase implements Communicate {
+public class WebTable extends TestBase  {
 	
 	
 
@@ -36,11 +36,11 @@ public class WebTable extends TestBase implements Communicate {
 	}
 	
 	
-	public ArrayList<String> versions(int rowcount) {
+	public ArrayList<String> versions(int rowcount,String bversion, String Aversion) {
 		ArrayList<String> versionList= new ArrayList<String>();
 		for(int i=2; i<=rowcount; i++) 
 		{
-			String actualxpath=beforexpath_Version+i+afterxpath_Version;
+			String actualxpath=bversion+i+Aversion;
 			String versions=driver.findElement(By.xpath(actualxpath)).getText();
 			
 			
@@ -54,19 +54,7 @@ public class WebTable extends TestBase implements Communicate {
 	}
 	
 	
-	public ArrayList<String> years(int rowcount){
-		ArrayList<String> yearList= new ArrayList<String>();
-		for(int i=2; i<=rowcount; i++) {
-			
-			String actualxpath=beforexpath_year+i+afterxpath_year;
-			String year=driver.findElement(By.xpath(actualxpath)).getText();
-			
-			yearList.add(year);
-			
-		}
-		return yearList;
-		
-	}
+
 	
 
 
