@@ -13,6 +13,7 @@ import testPages.WebTable;
 
 public class WebTableTestCase extends TestBase  {
 	WebTable webTable;
+	
 	String[] versionArray= {"HTML", "HTML 2.0", "HTML 3.2", "HTML 4.01", "XHTML","HTML5"};
 	String[] yearArray= {"1991","1995","1997","1999","2000","2014"};
 	public WebTableTestCase() {
@@ -28,6 +29,8 @@ public class WebTableTestCase extends TestBase  {
 		webTable=new WebTable();
 		
 	}
+	
+	
 	
 	@Test(priority=1)
 	public void rowCount() {
